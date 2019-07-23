@@ -184,16 +184,16 @@ if __name__ == "__main__":
                     sendEmail(to,content)
                     speak("Email has been sent")
                 except Exception as e:
-                    print(e)
+                    speak("There is some error while sending the email,please try again.")
 
             elif 'wait for sometime' in query:
-                time.sleep(200)
+                time.sleep(20)
 
-            elif "whatsapp jarvis" in query:
+            elif "whatsapp max" in query:
                 speak("I am doing my job!!")
 
             elif 'go to sleep' in query:
-                speak("Okay! jith I am leaving..")
+                speak("Okay! Varun I am leaving..")
                 break
 
             elif 'open a file' in query:
